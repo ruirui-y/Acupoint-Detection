@@ -1,26 +1,13 @@
 # =========================
-# Python 核心缓存与编译文件
+# Python 核心缓存与虚拟环境
 # =========================
 __pycache__/
 *.py[cod]
 *$py.class
-
-# =========================
-# 虚拟环境 (强烈建议不要提交)
-# =========================
 venv/
 env/
 .venv/
 .env/
-env.bak/
-venv.bak/
-
-# =========================
-# 环境变量与机密配置文件
-# =========================
-.env
-*.pem
-*.key
 
 # =========================
 # IDE 与编辑器配置
@@ -28,38 +15,59 @@ venv.bak/
 .vscode/
 .idea/
 *.swp
-*.swo
 
 # =========================
-# 测试与覆盖率报告
+# 📦 数据集 (Datasets & Data)
 # =========================
-.pytest_cache/
-.tox/
-.coverage
-htmlcov/
-nosetests.xml
-coverage.xml
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.npy
+*.npz
+*.h5
 
 # =========================
-# 打包与发布产物
+# 📊 实验结果与输出 (Results & Outputs)
 # =========================
-build/
-dist/
-*.egg-info/
-*.egg
-*.whl
-*.manifest
-*.spec
+results/
+result/
+out/
+output/
+outputs/
+figs/
+figures/
 
 # =========================
-# 日志与数据库
+# 📈 训练日志与监控 (Logs & Runs)
 # =========================
+run/
+runs/
+logs/
+log/
+tb_logs/
+wandb/
+tensorboard/
 *.log
-*.sqlite3
-*.db
 
 # =========================
-# 操作系统生成文件
+# 🧠 模型权重与检查点 (Models & Checkpoints)
+# =========================
+checkpoints/
+ckpt/
+models/
+weights/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
+*.ckpt
+
+# =========================
+# 操作系统缓存
 # =========================
 .DS_Store
 Thumbs.db
