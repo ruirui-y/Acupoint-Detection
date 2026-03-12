@@ -1,7 +1,0 @@
-train_rgb: H:/YJJ/PythonProject/multispectral-yolov8/data/my_68/rgb/images
-val_rgb:   H:/YJJ/PythonProject/multispectral-yolov8/data/my_68/rgb/images
-train_ir:  H:/YJJ/PythonProject/multispectral-yolov8/data/my_68/depth/images
-val_ir:    H:/YJJ/PythonProject/multispectral-yolov8/data/my_68/depth/images
-
-nc: 1
-names: ['acupoint']
